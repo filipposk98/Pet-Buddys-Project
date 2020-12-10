@@ -371,11 +371,13 @@ section5 h2{
      }
 
  h4 {
+  width: 10%;
   font-family: var(--font-family-haas);
   font-size: 30px;
-  position:relative;
-  /* left: 8rem; */
+  position: relative;
+  left: -2rem;
   top: 3rem;
+  margin: auto;
   
  }
 
@@ -513,5 +515,19 @@ footer {
   display: grid;
   background-color: #35203A;
   height: 25rem;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 3;
 }
 
+#footlogoBuddy {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center;
+  align-self: center;
+}
+
+#footlogoHund {
+  grid-column: 1;
+  grid-row: 2;
+  justify-self: center;
+}
